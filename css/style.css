@@ -15,14 +15,14 @@
 }
 
 .card {
-    max-width: 300px;
-    width: 85%;
-    height: auto; /* Let content determine height */
-    min-height: 350px;
+    width: 90%;
+    max-width: 400px;
+    min-height: 400px;
+    height: auto; /* Allow content to determine height */
     padding: 20px;
-    background: linear-gradient(135deg, rgba(34,193,195,1) 26%, rgba(101,38,134,1) 91%);
-    box-shadow: 0px 0px 10px #2f2f2f7b;
     border-radius: 15px;
+    background: linear-gradient(135deg, rgba(34,193,195,1) 26%, rgba(101,38,134,1) 91%);
+    box-shadow: 0 0 10px #2f2f2f7b;
 }
 
 .input-box{
