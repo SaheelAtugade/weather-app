@@ -17,7 +17,7 @@
 .card {
     max-width: 300px;
     width: 85%;
-    height: 20%; /* Let content determine height */
+    height: auto; /* Let content determine height */
     min-height: 350px;
     padding: 20px;
     background: linear-gradient(135deg, rgba(34,193,195,1) 26%, rgba(101,38,134,1) 91%);
