@@ -25,6 +25,13 @@
     box-shadow: 0 0 10px #2f2f2f7b;
 }
 
+@media (max-width: 600px) {
+    .card {
+        width: 95%;
+        min-height: 450px;
+    }
+}
+
 .input-box{
     display: flex;
     align-items: center;
