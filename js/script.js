@@ -26,7 +26,7 @@ function getWeather(cityName) {
         input.value = "";
 
         const condition = data.weather[0].main;
-        if (condition.includes("clouds")) {
+        if (condition.includes("Clouds")) {
             weatherImg.src = "./image/clouds.png";
         } else if (condition.includes("Rain")) {
             weatherImg.src = "./image/rain.png";
