@@ -25,7 +25,7 @@ function getWeather(cityName) {
         wind.textContent = `${data.wind.speed} Km/h`;
         input.value = "";
 
-        const condition = data.weather[0].main;
+        const condition = data.weather[0].main.toLowerCase();
         if (condition.includes("Clouds")) {
             weatherImg.src = "./image/clouds.png";
         } else if (condition.includes("Rain")) {
