@@ -28,7 +28,7 @@ function getWeather(cityName) {
         const condition = data.weather[0].main.toLowerCase();
         if (condition.includes("clouds")) {
             weatherImg.src = "./image/clouds.png";
-        } else if (condition.includes("rain")) {
+        } else if (condition.includes("Rain")) {
             weatherImg.src = "./image/rain.png";
         } else if (condition.includes("clear")) {
             weatherImg.src = "./image/clear.png";
