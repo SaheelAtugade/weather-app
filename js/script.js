@@ -34,6 +34,8 @@ function getWeather(cityName) {
             weatherImg.src = "./image/clear.png";
         } else if (condition.includes("snow")) {
             weatherImg.src = "./image/snow.png";
+        } else if (condition.includes("smoke")) {
+            weatherImg.src = "./image/clouds.png";
         } else {
             weatherImg.src = "./image/cloud.png";
         }
