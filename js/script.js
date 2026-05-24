@@ -30,6 +30,7 @@ async function getWeather(cityName) {
       clear: "./image/clear.png",
       snow: "./image/snow.png",
       smoke: "./image/clouds.png",
+      haze: "./image/haze.png"
     };
 
     const condition = data.weather[0].main.toLowerCase();
