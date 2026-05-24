@@ -26,6 +26,8 @@ async function getWeather(cityName) {
 
     const weatherImages = {
       clouds: "./image/clouds.png",
+      mist: "./image/mist.png",
+      drizzle: "./image/drizzle",
       rain: "./image/rain.png",
       clear: "./image/clear.png",
       snow: "./image/snow.png",
@@ -35,7 +37,7 @@ async function getWeather(cityName) {
 
     const condition = data.weather[0].main.toLowerCase();
     console.log(condition);
-    weatherImg.src = weatherImages[condition] || "./image/cloud.png";
+    weatherImg.src = weatherImages[condition] || "./image/clouds.png";
   } catch (error) {
     console.error("Error:", error);
     alert("Something went wrong!");
