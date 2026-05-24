@@ -34,6 +34,7 @@ async function getWeather(cityName) {
     };
 
     const condition = data.weather[0].main.toLowerCase();
+    console.log(condition);
     weatherImg.src = weatherImages[condition] || "./image/cloud.png";
   } catch (error) {
     console.error("Error:", error);
